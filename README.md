@@ -19,17 +19,20 @@ Lists are ordered, mutable collections of items. You can add, remove, and modify
 
 ```python
 my_list = [1, 2, 3, 4, 5]
+```
 Tuples
 Tuples are ordered, immutable collections of items. Once created, you cannot change the elements in a tuple. Example:
 
 ```python
 my_tuple = (1, 2, 3, 4, 5)
-Dictionaries
+```
+###Dictionaries
 Dictionaries are unordered collections of key-value pairs. Each key is unique and maps to a value. Example:
 
 ```python
 my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
-Object-Oriented Programming (OOPs) Concepts
+```
+##Object-Oriented Programming (OOPs) Concepts
 Python supports object-oriented programming, allowing you to define classes and create objects with attributes and methods. Here's a basic example:
 
 ```python
@@ -41,10 +44,10 @@ class Person:
     def greet(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
-###Create an object of the Person class
+#Create an object of the Person class
 person1 = Person("Alice", 25)
 person1.greet()
-
+```
 
 ##Getting Started
 Clone this repository to your local machine.
